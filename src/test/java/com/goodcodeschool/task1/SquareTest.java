@@ -23,7 +23,7 @@ public class SquareTest {
     
     @Test
     public void negativeTest() {
-        double res = square.square(-4);
+        double res = square.square(4);
         
         assertTrue(Double.valueOf(2.0).equals(res));
     }
