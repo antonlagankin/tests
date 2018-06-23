@@ -10,7 +10,7 @@ jobs:
     steps:
       - OUT: tests
 
-  - name: tests_runner_runCI
+  - name: tests_runner
     type: deploy/manifest/runSh
     steps:
       - IN: tests
