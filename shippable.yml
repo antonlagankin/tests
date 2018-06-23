@@ -11,6 +11,6 @@ jobs:
       - OUT: tests
 
   - name: tests_runner_runCI
-    type: runCI
+    type: deploy/manifest/runSh
     steps:
       - IN: tests
