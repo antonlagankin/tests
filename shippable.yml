@@ -2,3 +2,15 @@ language: java
 
 jdk:
   - oraclejdk8
+
+
+jobs:
+  - name: tests_runCI
+    type: runCI
+    steps:
+      - OUT: tests
+
+  - name: tests_runner_runCI
+    type: runCI
+    steps:
+      - IN: tests
